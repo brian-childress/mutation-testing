@@ -1,0 +1,23 @@
+{
+  "name": "mutation-testing-example-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stryker": "./node_modules/.bin/stryker run",
+    "test:unit": "jasmine",
+    "test:cover": "istanbul cover --include-all-sources spec/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stryker-mutator/core": "^2.4.0",
+    "@stryker-mutator/html-reporter": "^2.4.0",
+    "@stryker-mutator/jasmine-framework": "^2.4.0",
+    "@stryker-mutator/jasmine-runner": "^2.4.0",
+    "@stryker-mutator/javascript-mutator": "^2.4.0",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.5.0"
+  }
+}
